@@ -9,6 +9,18 @@ My program is a brute force attack at figuring out this puzzle. It try out every
 
 <img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/68a05b98-e9c7-4b17-92ec-0e2bc1a7a97e" />
 
+How to interpret output: 
+ Solution found!
+  Wheel 1 = 0 Wheel 2 = 12 Wheel 3 = 4 Wheel 4 = 9
+
+What this means in regard to the puzzle: 
+Wheel 1 = 0 Do not rotate wheel 1. Leave it at the starting position.
+Wheel 2 = 12 Rotate wheel 2 forward 12 positions.
+Wheel 3 = 4 Rotate wheel 3 forward 4 positions.
+Wheel 4 = 9 Rotate wheel 4 forward 9 positions.
+
+The starting positions are all in respect to the wheel postion chosen by me. The numbers can be adjusted in the progam but all vectors must aligned in respect to all the wheels are the solution will not work. 
+
 
 Requirements to Run: 
   C++17 compatible compiler - I used g++
@@ -21,7 +33,7 @@ Requirements to Run:
 
 
 Limitations: 
-  A clear limitation of the program is that it is designed to solve a specific puzzle. I thought that using a brute force attack to break at "safe" would be much safer done on a puzzle rather than a viable pin or password cracker. 
+  A clear limitation of the program is that it is designed to solve a specific puzzle. I thought that using a brute force attack to break at "safe" would be much safer done on a puzzle rather than a viable pin or password cracker. This program also "breaks" something physical which is benifical as an educational tool but also does not damage anything in the digial landscape. 
 
 Ethical considerations and responsible use:
 
